@@ -4,7 +4,7 @@ import { Navbar, NavbarBrand} from 'reactstrap';
 import './App.css';
 
 export default class App extends Component{  
-  render(){
+  render(){ // equivalent to React.render
     return (
       <div className="App">
         <Navbar dark color="primary">
