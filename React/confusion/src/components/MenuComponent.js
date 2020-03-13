@@ -54,7 +54,7 @@ export default class Menu extends Component{
                         <Media left middle>
                             <Media  object src={dish.image} alt= {dish.image}></Media>
                         </Media>
-                        <Media body ="ml-5">
+                        <Media body className="ml-5">
                             <Media heading>{dish.name}</Media>
                             <p>{dish.description}</p>
                         </Media>
