@@ -1,0 +1,18 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "React Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ritikash2612/reactapp.git) "
+  },
+  "author": "Ritika",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
