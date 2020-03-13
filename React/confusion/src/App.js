@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import { Navbar, NavbarBrand} from 'reactstrap';
+// import MenuComp from './components/MenuComp';
 import Menu from './components/MenuComponent';
 import { DISHES } from './shared/Dishes';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,
-  CardTitle } from 'reactstrap';
 import './App.css';
 
 export default class App extends Component{  
@@ -29,6 +28,7 @@ export default class App extends Component{
           </div>
         </Navbar>
         <Menu dishes = {this.state.dishes}/>
+        {/* <MenuComp/> */}
       </div>
     );
   }
